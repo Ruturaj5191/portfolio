@@ -103,18 +103,53 @@ const Education: React.FC = () => {
                 </div>
               </motion.div>
 
-              {/* Placeholder for future certs */}
-              <motion.div
+              <motion.a 
+                href="/docker_certificate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="glass p-6 rounded-2xl border border-dashed border-white/10 flex items-center justify-center min-h-[100px]"
+                className="card-shine glass p-8 rounded-2xl border border-white/5 hover:border-accent/30 transition-all duration-500 bg-gradient-to-br from-accent/5 to-transparent flex items-center gap-6 group cursor-pointer"
               >
-                <p className="text-slate-600 text-sm text-center italic">
-                  More certifications coming soon...
-                </p>
-              </motion.div>
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300 border border-white/10">
+                  <Award className="text-accent" size={32} />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs font-semibold text-accent bg-accent/10 px-2.5 py-1 rounded-full">
+                      2026
+                    </span>
+                  </div>
+                  <h4 className="text-xl font-bold text-white mb-1">Docker Foundations Professional Certificate</h4>
+                  <p className="text-slate-400 text-sm">LinkedIn Learning</p>
+                </div>
+              </motion.a>
+
+              <motion.a 
+                href="/github_certificate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, x: 20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="card-shine glass p-8 rounded-2xl border border-white/5 hover:border-accent/30 transition-all duration-500 bg-gradient-to-br from-accent/5 to-transparent flex items-center gap-6 group cursor-pointer"
+              >
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300 border border-white/10">
+                  <Award className="text-accent" size={32} />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs font-semibold text-accent bg-accent/10 px-2.5 py-1 rounded-full">
+                      2026
+                    </span>
+                  </div>
+                  <h4 className="text-xl font-bold text-white mb-1">Career Essentials in GitHub Professional</h4>
+                  <p className="text-slate-400 text-sm">LinkedIn Learning</p>
+                </div>
+              </motion.a>
             </div>
           </div>
         </div>

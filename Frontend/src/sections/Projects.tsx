@@ -16,6 +16,16 @@ const projects = [
     gradient: "from-indigo-500/20 to-purple-600/20"
   },
   {
+    title: "Shivshambho MGT",
+    role: "Full Stack Developer",
+    description: "A comprehensive management system built for organizational workflow automation, client management, and real-time operations tracking.",
+    impact: "Successfully delivered and deployed into production, streamlining operational efficiency for the client.",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "TypeScript"],
+    github: "https://github.com/USYSTEM-SOFTWARE-PVT-LTD/Shivshambho-MGT",
+    live: "https://shivshambhoo.com/login",
+    gradient: "from-pink-500/20 to-rose-600/20"
+  },
+  {
     title: "E-Commerce Platform",
     role: "Full Stack Developer",
     description: "Full-stack e-commerce engine with product catalogue, cart, checkout, and separate Admin/Customer dashboards with RBAC across 15+ API endpoints.",

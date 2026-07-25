@@ -14,7 +14,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Team Lead",
     role: "Senior Developer",
-    company: "Utech India Pvt. Ltd.",
+    company: "Umbarkar tech India Pvt. Ltd.",
     text: "Ruturaj quickly became an integral part of our fintech team. His ability to design secure, scalable REST APIs with JWT and RBAC was impressive. He shipped the salary slip generation and biometric attendance features with minimal supervision.",
     rating: 5
   },
@@ -28,7 +28,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Colleague",
     role: "Full Stack Developer",
-    company: "Utech India Pvt. Ltd.",
+    company: "Umbarkar tech India Pvt. Ltd.",
     text: "Working alongside Ruturaj on Finance Bazar was a great experience. He's meticulous with code quality, proactive in code reviews, and always pushes for performance optimization. His face-api.js integration was particularly innovative.",
     rating: 5
   }

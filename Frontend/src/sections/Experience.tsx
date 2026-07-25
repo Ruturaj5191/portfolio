@@ -5,7 +5,7 @@ import { Briefcase, Calendar, MapPin, ChevronRight } from 'lucide-react';
 const experiences = [
   {
     id: 1,
-    company: "Utech India Pvt. Ltd.",
+    company: "Umbarkar tech India Pvt. Ltd.",
     location: "Pune, India",
     role: "Software Developer",
     duration: "November 2025 – Present",
@@ -13,9 +13,10 @@ const experiences = [
     tech: ["Node.js", "Express.js", "REST API", "React.js", "TypeScript", "MongoDB"],
     highlights: [
       "Engineered full-stack fintech features for Finance Bazar — loan workflows, payroll processing, compliance tracking, and incentive management across Admin, HR, and Employee roles.",
-      "Designed and secured 15+ REST APIs with JWT Authentication and granular RBAC, reducing unauthorized access to zero and cutting query response time by ~30%.",
-      "Built Salary Slip generation module with automated PDF export and biometric face verification using face-api.js for real-time attendance and identity matching.",
-      "Collaborated in Agile code reviews improving API response structure, backend scalability, and CI/CD pipeline efficiency across production deployments and Docker."
+      "Designed and secured 15+ REST APIs with JWT authentication and granular RBAC across three distinct user roles, cutting query response time by ~30%.",
+      "Built a Salary Slip generation module with automated PDF export and biometric face verification using face-api.js, reducing manual attendance verification time and eliminating proxy attendance.",
+      "Collaborated in Agile code reviews improving API response structure, backend scalability, and CI/CD pipeline efficiency across production deployments and Docker.",
+      "Developed and deployed Shivshambho MGT, a comprehensive management system (Live: shivshambhoo.com/login)."
     ]
   },
   {
