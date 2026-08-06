@@ -26,12 +26,22 @@ const projects = [
     gradient: "from-pink-500/20 to-rose-600/20"
   },
   {
+    title: "Job Search Automator (AutoApply)",
+    role: "Full Stack / Automation Developer",
+    description: "Automated job application platform with a Playwright-driven scraping pipeline to autonomously search and apply to jobs across major job boards.",
+    impact: "Integrated Gemini LLM for job parsing and auto-generated cover letters. Implemented Celery for async processing and automated DOM capture for debugging.",
+    tech: ["Python", "Django", "React.js", "Playwright", "Celery", "Gemini AI"],
+    github: "https://github.com/Ruturaj5191/job-search-automator.git",
+    live: "#",
+    gradient: "from-violet-500/20 to-fuchsia-600/20"
+  },
+  {
     title: "E-Commerce Platform",
     role: "Full Stack Developer",
     description: "Full-stack e-commerce engine with product catalogue, cart, checkout, and separate Admin/Customer dashboards with RBAC across 15+ API endpoints.",
     impact: "Optimized Django ORM using select_related() & prefetch_related(), reducing DB query count by ~40% on product search endpoints.",
     tech: ["Python", "Django", "DRF", "MySQL", "React.js"],
-    github: "https://github.com/Ruturaj5191",
+    github: "https://github.com/Ruturaj5191/Ecommerce_python.git",
     live: "#",
     gradient: "from-cyan-500/20 to-blue-600/20"
   },
@@ -41,7 +51,7 @@ const projects = [
     description: "Full-stack key tracking system with real-time status monitoring, automated overdue detection, and JWT-based RBAC across 20+ API endpoints.",
     impact: "Automated overdue tracking using Node.js Cron jobs, ensuring 100% compliance with key return policies.",
     tech: ["Node.js", "Express.js", "MySQL", "React.js"],
-    github: "https://github.com/Ruturaj5191",
+    github: "https://github.com/Ruturaj5191/Smart_key_Management-.git",
     live: "#",
     gradient: "from-emerald-500/20 to-teal-600/20"
   },
